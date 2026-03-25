@@ -1,0 +1,21 @@
+### List all cakes
+GET http://localhost:3000/cakes
+
+### Create a cake
+POST http://localhost:3000/cakes
+Content-Type: application/json
+
+{
+  "id": 1234,
+  "name": "Lemon drizzle2",
+  "comment": "A delicious lemon cake",
+  "imageUrl": "http://example.com/lemon-cake.jpg",
+  "yumFactor": 4
+}
+
+### Get a specific cake
+GET http://localhost:3000/cakes/1774475876139
+
+### Delete a cake
+DELETE http://localhost:3000/cakes/1774473037123
+
