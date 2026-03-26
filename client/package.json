@@ -9,7 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "@tanstack/vue-form": "^1.28.5",
+    "filepond": "^4.32.12",
+    "filepond-plugin-file-validate-type": "^1.2.9",
+    "filepond-plugin-image-preview": "^4.6.12",
+    "vue": "^3.5.13",
+    "vue-filepond": "^7.0.4",
+    "vue-star-rating": "^2.1.0"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.0",
