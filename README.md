@@ -1,3 +1,11 @@
+# Waracakes
+Online demo: http://cake-alb-1854837810.eu-west-2.elb.amazonaws.com/
+
+## Running locally
+1. Clone the repo
+2. pnpm run build
+3. pnpm start:dev 
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>

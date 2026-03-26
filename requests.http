@@ -33,3 +33,18 @@ Content-Type: application/json
   "imageUrl": "http://example.com/lemon-cake.jpg",
   "yumFactor": 4
 }
+
+### Get a specific cake
+http://cake-alb-1854837810.eu-west-2.elb.amazonaws.com/cakes
+
+### Create a cake
+POST http://cake-alb-1854837810.eu-west-2.elb.amazonaws.com/cakes
+Content-Type: application/json
+
+{
+  "id": 1234,
+  "name": "Lemon drizzle production",
+  "comment": "A delicious lemon cake",
+  "imageUrl": "http://example.com/lemon-cake.jpg",
+  "yumFactor": 4
+}
